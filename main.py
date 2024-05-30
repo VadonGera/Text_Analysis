@@ -3,7 +3,7 @@ from nltk.corpus import stopwords
 from collections import Counter
 
 
-# Читаем содержимое файла в байтовом формате и декодируем его в строку с использованием UTF-8
+# Читаем содержимое файла в байтовом формате и декодируем его в строку с использованием  UTF-8
 def load_text(filename):
     try:
         with open(filename, 'rb') as file:  # Открываем файл в режиме чтения в бинарном режиме
